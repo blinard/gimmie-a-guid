@@ -5,6 +5,7 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <RootNamespace>GimmieAGuid</RootNamespace>
     <AssemblyName>GimmieAGuid</AssemblyName>
+    <Version>1.0.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

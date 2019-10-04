@@ -1,13 +1,15 @@
 ﻿
-Note: Include this file if including binaries you have the right to distribute. 
-Otherwise delete. this file. If you are the software author, you can change this
-mention you are the author of the software.
-
-===DELETE ABOVE THIS LINE AND THIS LINE===
-
 VERIFICATION
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
- 
-<Include details of how to verify checksum contents>
-<If software vendor, explain that here - checksum verification instructions are optional>
+
+Steps to verify checksum:
+
+1. Install the checksum utility
+    a. choco install checksum
+2. Locate the Chocolatey install path for GimmieAGuid and navigate your shell or powershell console to that location
+    a. cd C:\PATH\TO\CHOCOLATEY\GIMMIEAGUID\PACKAGE
+3. Verify the provided checksum value using the checksum utility
+    a. checksum GimmieAGuid.exe -c="HASHVALUEFROMCHOCOLATEY" -t=sha256
+
+I'm the software author/vendor as well.

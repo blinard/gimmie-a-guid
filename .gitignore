@@ -1,3 +1,6 @@
 obj
 bin
 .vagrant
+*.nupkg
+*.exe
+*.pdb
